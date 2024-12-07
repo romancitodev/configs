@@ -50,6 +50,7 @@
 "variable" = "gray_very_light"
 
 "constant" = { fg = "lightest_gray", modifiers = ["bold"] }
+"constant.builtin" = { fg = "neutral_red", modifiers = ["bold"] }
 "constant.builtin.boolean" = { fg = "neutral_red", modifiers = ["bold"] }
 "constant.numeric" = { fg = "neutral_orange", modifiers = ["bold"] }
 "constant.character" = { fg = "neutral_green", modifiers = ["bold"] }
