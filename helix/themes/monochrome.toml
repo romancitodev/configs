@@ -22,7 +22,7 @@
 "ui.linenr" = "medium_gray"
 "ui.linenr.selected" = "gray_light"
 
-"ui.virtual.inlay-hint" = { bg = "dark_gray", fg = "gray" }
+"ui.virtual.inlay-hint" = { fg = "medium_gray" }
 
 "attribute" = "gray_medium"
 "tag" = "gray_light"
@@ -69,9 +69,9 @@ info = "bright_blue"
 hint = "bright_blue"
 
 "diagnostic.error" = { underline = { color = "red", style = "curl" } }
-"diagnostic.warning" = { underline = { color = "yellow", style = "curl" } }
-"diagnostic.info" = { underline = { color = "sky", style = "curl" } }
-"diagnostic.hint" = { underline = { color = "teal", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "neutral_orange", style = "curl" } }
+"diagnostic.info" = { underline = { color = "yellow", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "bright_blue", style = "curl" } }
 
 [palette]
 base = "#101010"
@@ -86,15 +86,15 @@ gray_lightish = "#9f9f9f"
 gray_very_light = "#b7b7b7"
 lightest_gray = "#cfcfcf"
 bright_red = "#ffc4c4"
-bright_green = "#eff6ab"
 bright_yellow = "#ffe6b5"
+bright_green = "#eff6ab"
 bright_blue = "#c9e6fd"
 neutral_red = "#eca8a8"
+neutral_orange = "#efb6a0"
 neutral_green = "#ccd389"
 neutral_blue = "#a5c6e1"
 neutral_purple = "#e1bee9"
 neutral_aqua = "#c7ebe6"
-neutral_orange = "#efb6a0"
 faded_red = "#ec8989"
 faded_green = "#c9d36a"
 faded_yellow = "#ceb581"
